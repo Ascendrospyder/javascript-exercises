@@ -1,6 +1,13 @@
-const repeatString = function (string, num) {
-  // create an empty array to hold to resulting string
-  let resultString = [];
+const repeatString = function (string, num) 
+{
+  // if the number is negative then we go ahead and 
+  // print out an error message on the console
+  if (num < 0)
+  {
+    return "ERROR"; 
+  } 
+  // create an empty string to hold to resulting string
+  let resultString = "";
 
   // loop through the array num times and add string to the
   // array
