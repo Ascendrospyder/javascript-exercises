@@ -1,11 +1,9 @@
-const repeatString = function (string, num) 
-{
-  // if the number is negative then we go ahead and 
+const repeatString = function (string, num) {
+  // if the number is negative then we go ahead and
   // print out an error message on the console
-  if (num < 0)
-  {
-    return "ERROR"; 
-  } 
+  if (num < 0) {
+    return "ERROR";
+  }
   // create an empty string to hold to resulting string
   let resultString = "";
 
